@@ -16,8 +16,8 @@ void test_rotate_a_by_0_same_output_as_input(void) {
     // TEST_IGNORE();
     char buffer[BUFFER_SIZE];
 
-    rotate("t", 21, buffer);
-    TEST_ASSERT_EQUAL_STRING("o", buffer);
+    rotate("a", 0, buffer);
+    TEST_ASSERT_EQUAL_STRING("a", buffer);
 }
 
 void test_rotate_a_by_1(void) {
